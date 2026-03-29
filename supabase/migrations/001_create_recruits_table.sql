@@ -1,0 +1,1 @@
+CREATE TABLE recruits (\n    id SERIAL PRIMARY KEY,\n    artist_name VARCHAR(255) NOT NULL,\n    origin_story TEXT,\n    mandate_story TEXT,\n    omnis_coins INT DEFAULT 10000\n);
